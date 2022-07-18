@@ -2,12 +2,17 @@ MAJOR_SUBJECT_MARKS = 100;
 MINOR_SUBJECT_MARKS = 50;
 TOTAL_MARKS = 400;
 
+obtained_marks = 0
+
 def getMarks(subject, max_marks):
+    global obtained_marks
+    
     while True:
         try:
             numbers = int(input(subject + "'s marks: "))
 
             if (numbers<=max_marks and numbers>0):
+                obtained_marks += numbers
                 return numbers;
 
             print("Invalid marks 0-100.")
@@ -29,6 +34,5 @@ print("Mathematics\t\t  : " + str(maths))
 print("English\t\t\t  : " + str(english))
 print("Arabic\t\t\t  : " + str(arabic))
 
-obtained_marks = physics + chemistry + maths + english + arabic
 print("\n\nTotal Marks Obtained      :", obtained_marks, "out of", TOTAL_MARKS, sep=' ')
 print("Total Percentage Obtained :", round((obtained_marks*100)/TOTAL_MARKS, 2), "%", sep=' ', end='\n\n')
