@@ -30,13 +30,24 @@ def getGreaterThan40List():
     return filtered_list
 
 # Sum of random number list
-def getRandomListSum():
+def getRandomListSum(item_list):
     list_sum = 0
 
-    for item in random_list:
+    for item in item_list:
         list_sum += item
 
     return list_sum
+
+# Average of random number list
+def getRandomListAverage(item_list):
+    list_sum = 0
+
+    for item in item_list:
+        list_sum += item
+
+    average = list_sum/len(item_list)
+
+    return average
 
 # Get Minimum value using loop
 def getRandomListMinimumValue():
@@ -60,10 +71,19 @@ def getRandomListMaximumValue():
 
 print("\n********************* Random Nummbers *********************\n")
 getRandomNumbers()
+greater_40_list = getGreaterThan40List()
+
 print("Random list: ", random_list)
-print("\nGreater than 40 list: ", getGreaterThan40List())
-print("\nSum of random list: ", getRandomListSum())
-print("Minimum of random list: ", getRandomListMinimumValue())
+print("\nGreater than 40 list: ", greater_40_list)
+
+print("\nSum of random list: ", getRandomListSum(random_list))
+print("Sum of greater than 40 list: ", getRandomListSum(greater_40_list))
+
+print("\nAverage of random list: ", getRandomListAverage(random_list))
+print("Average of greater than 40 list: ", getRandomListAverage(greater_40_list))
+
+print("\nMinimum of random list: ", getRandomListMinimumValue())
 print("Minimum of random list with buil-in method: ", min(random_list))
+
 print("\nMaximum of random list: ", getRandomListMaximumValue())
 print("Maximum of random list with buil-in method: ", max(random_list))
