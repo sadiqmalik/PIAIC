@@ -10,6 +10,8 @@ This is the repo for assignments for AI Course
 	 - This program take subject marks, print marks, print obtained marks, and print percentage
  - **[Marks Sheet With Method](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture3_MarksheetWithFunction.py)**
 	 - This program take subject marks, print marks, print obtained marks, and print percentage
+ - **[Even/Odd number](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture3_EvenOddNumber.py)**
+	 - This program take subject marks, print marks, print obtained marks, and print percentage
 
 ### Class 5
 
