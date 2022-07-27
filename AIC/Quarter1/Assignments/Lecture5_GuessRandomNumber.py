@@ -5,12 +5,10 @@ def guessRandomNumber():
     # number of elements as input
     random_number = random.randint(1, 50)
 
-    print("Random Number: ", random_number)
-
     for i in range(1, 4):
         while True:
             try:
-                number = int(input("\nGuess the number: "))
+                number = int(input("\nGuess the number 1-50: "))
                 break
             except ValueError:
                 print("Only number allowed!")
@@ -20,6 +18,8 @@ def guessRandomNumber():
             break
 
         print("Bad luck!")
+    
+    print("\nRandom number was: ", random_number)
 
 print("\n********************* Guess Random Number *********************")
 guessRandomNumber()
