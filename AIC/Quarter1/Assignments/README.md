@@ -39,3 +39,5 @@ This is the repo for assignments for AI Course
 	 - Count all the vowels and consonats count in a statement
  - **[Vowel & Consonant Count](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_RowColumnNumberSeries.py)**
 	 - Print number in row and column with decrements
+ - **[Palindrom](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_Palindrome.py)**
+	 - Check if the given statement is palindrome or not
