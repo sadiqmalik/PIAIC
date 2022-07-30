@@ -30,3 +30,8 @@ This is the repo for assignments for AI Course
 	- Generate a Random Number and give three tries to user to guess the number
 - **[Character Count](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture5_CharacterCount.py)**
 	- For a user input string, get a character from user and find its number of occurrence in the string
+
+### Class 6
+
+ - **[Character Counts In Statement](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_StatementCharacterCount.py)**
+	 - Count all character counts in a statement
