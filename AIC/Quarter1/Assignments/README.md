@@ -36,4 +36,6 @@ This is the repo for assignments for AI Course
  - **[Character Counts In Statement](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_StatementCharacterCount.py)**
 	 - Count all character counts in a statement
  - **[Vowel & Consonant Count](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_VowelConsonantCount.py)**
-	 - Count all character counts in a statement
+	 - Count all the vowels and consonats count in a statement
+ - **[Vowel & Consonant Count](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_RowColumnNumberSeries.py)**
+	 - Print number in row and column with decrements
