@@ -37,11 +37,23 @@ This is the repo for assignments for AI Course
 	 - Count all character counts in a statement
  - **[Vowel & Consonant Count](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_VowelConsonantCount.py)**
 	 - Count all the vowels and consonats count in a statement
- - **[Vowel & Consonant Count](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_RowColumnNumberSeries.py)**
+ - **[Print Number Series](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_RowColumnNumberSeries.py)**
 	 - Print number in row and column with decrements
+```
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+```
  - **[Palindrom](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_Palindrome.py)**
 	 - Check if the given statement is palindrome or not
-
+```
+1234321 (Palindrome)
+123451 (Not Palindrome)
+ABCDCBA (Palindrome)
+ABCDEBA (Not Palindrome)
+```
  - **[Number Trianlge & Reverse](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_RowColumnNumberSeriesSquare.py)**
 	 - Print number trianlge square
 ```
