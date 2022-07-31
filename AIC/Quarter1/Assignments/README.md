@@ -41,14 +41,17 @@ This is the repo for assignments for AI Course
 	 - Print number in row and column with decrements
  - **[Palindrom](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_Palindrome.py)**
 	 - Check if the given statement is palindrome or not
+
  - **[Number Trianlge & Reverse](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Lecture6_RowColumnNumberSeriesSquare.py)**
 	 - Print number trianlge square
-	 -         5
-	 -       4   4
-	 -     3       3
-	 -   2           2
-	 - 1               1
-	 -   2           2
-	 -     3       3
-	 -       4   4
-	 -         5
+```
+         5
+       4   4
+     3       3
+   2           2
+ 1               1
+   2           2
+     3       3
+       4   4
+         5
+```
