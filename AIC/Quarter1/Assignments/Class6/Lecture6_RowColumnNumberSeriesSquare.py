@@ -2,7 +2,11 @@ print("************* Print Number Series Square *************\n")
 
 while True:
     try:
-        number = int(input("Please enter a number: "))
+        number = int(input("Please enter a number 1-9: "))
+
+        if (number > 9):
+            continue
+        
         break
     except ValueError:
         print("Only number allowed!")
@@ -24,7 +28,7 @@ for i in range(number):
 
 # Print reverse number triangle
 current_number += 1
-while (current_number<=number):
+for current_number in range(current_number, number+1):
     for j in range(current_number):
         print(" ", end="")
     
@@ -38,4 +42,3 @@ while (current_number<=number):
         print(" ", end="")
 
     print(current_number)
-    current_number += 1
