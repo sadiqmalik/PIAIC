@@ -67,3 +67,8 @@ ABCDEBA (Not Palindrome)
        4   4
          5
 ```
+
+### Class 7
+
+ - **[Student Records](https://github.com/sadiqmalik/PIAIC/blob/main/AIC/Quarter1/Assignments/Class6/Lecture7_StudentsRecord.py)**
+	 - Input student data and list of courses
